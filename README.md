@@ -19,11 +19,4 @@ Now back to your user app.
 
 #### NOW MY CODE
 
-## models.py
-
-I imported some of the django models and methods to create our own Custom User model
-AbstractBaseUser - A default django user model you'd be inheriting attributes from and overriding them to your preference
-PermissionsMixin - A default django user model for certain superuser attributes you have to override 
-BaseUserManager - Another default django model. This we are using to customize our user and superuser creation function
-gettext_lazy - a django method to get users emails however case is typed by the user.
-timezone - a django datetime method
+To be continued...
