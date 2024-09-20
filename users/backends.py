@@ -15,5 +15,5 @@ class CaseInsensitiveModelBackend(ModelBackend):
         except UserModel.DoesNotExist:
             UserModel().set_password(password)
         else:
-            if user.check_password and self.user_can_authenticate(user):
+            if user.check_password(password) and self.user_can_authenticate(user):
                 return user
